@@ -1,0 +1,101 @@
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	float: left;
+	table-layout: fixed;
+	width: 16.6%;
+}
+th {
+	font-size: 2.5vw;
+	color: white;
+}
+td {
+	font-size: 1.5vw;
+}
+.day {
+	color: gray;
+}
+td.jan {
+	color: red;
+	font-weight: bold;
+}
+th.jan {
+	background-color: red;
+}
+td.feb {
+	color: orange;
+	font-weight: bold;
+}
+th.feb {
+	background-color: orange;
+}
+td.mar {
+	color: gold;
+	font-weight: bold;
+}
+th.mar {
+	background-color: gold;
+}
+td.apr {
+	color: green;
+	font-weight: bold;
+}
+th.apr {
+	background-color: green;
+}
+td.may {
+	color: blue;
+	font-weight: bold;
+}
+th.may {
+	background-color: blue;
+}
+td.jun {
+	color: purple;
+	font-weight: bold;
+}
+th.jun {
+	background-color: purple;
+}
+td.jul {
+	color: red;
+	font-weight: bold;
+}
+th.jul {
+	background-color: red;
+}
+td.aug {
+	color: orange;
+	font-weight: bold;
+}
+th.aug {
+	background-color: orange;
+}
+td.sep {
+	color: gold;
+	font-weight: bold;
+}
+th.sep {
+	background-color: gold;
+}
+td.oct {
+	color: green;
+	font-weight: bold;
+}
+th.oct {
+	background-color: green;
+}
+td.nov {
+	color: blue;
+	font-weight: bold;
+}
+th.nov {
+	background-color: blue;
+}
+td.dec {
+	color: purple;
+	font-weight: bold;
+}
+th.dec {
+	background-color: purple;
+}
