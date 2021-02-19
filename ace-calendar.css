@@ -1,6 +1,6 @@
 h1 {
 	background-color: #000;
-	background-image: linear-gradient(to right, #000, #000, #888, #888, #ddd, #ddd, #800080, #800080);
+	background-image: linear-gradient(to right, #000000, #000000, #888888, #888888, #dddddd, #dddddd, #800080, #800080);
 }
 table {
 	width: 25.0%;
@@ -12,34 +12,34 @@ td {
 	font-size: 2.25vw;
 }
 .jan td {
-	color: #000;
+	color: #000000;
 }
 
 .jan td.faded {
-	color: #00050;
+	color: #00000050;
 }
 .jan th {
-	background-color: #000;
+	background-color: #000000;
 }
 .feb td {
-	color: #888;
+	color: #888888;
 }
 
 .feb td.faded {
-	color: #88850;
+	color: #88888850;
 }
 .feb th {
-	background-color: #888;
+	background-color: #888888;
 }
 .mar td {
-	color: #ddd;
+	color: #dddddd;
 }
 
 .mar td.faded {
-	color: #ddd50;
+	color: #dddddd50;
 }
 .mar th {
-	background-color: #ddd;
+	background-color: #dddddd;
 }
 .apr td {
 	color: #800080;
@@ -52,34 +52,34 @@ td {
 	background-color: #800080;
 }
 .may td {
-	color: #000;
+	color: #000000;
 }
 
 .may td.faded {
-	color: #00050;
+	color: #00000050;
 }
 .may th {
-	background-color: #000;
+	background-color: #000000;
 }
 .jun td {
-	color: #888;
+	color: #888888;
 }
 
 .jun td.faded {
-	color: #88850;
+	color: #88888850;
 }
 .jun th {
-	background-color: #888;
+	background-color: #888888;
 }
 .jul td {
-	color: #ddd;
+	color: #dddddd;
 }
 
 .jul td.faded {
-	color: #ddd50;
+	color: #dddddd50;
 }
 .jul th {
-	background-color: #ddd;
+	background-color: #dddddd;
 }
 .aug td {
 	color: #800080;
@@ -92,34 +92,34 @@ td {
 	background-color: #800080;
 }
 .sep td {
-	color: #000;
+	color: #000000;
 }
 
 .sep td.faded {
-	color: #00050;
+	color: #00000050;
 }
 .sep th {
-	background-color: #000;
+	background-color: #000000;
 }
 .oct td {
-	color: #888;
+	color: #888888;
 }
 
 .oct td.faded {
-	color: #88850;
+	color: #88888850;
 }
 .oct th {
-	background-color: #888;
+	background-color: #888888;
 }
 .nov td {
-	color: #ddd;
+	color: #dddddd;
 }
 
 .nov td.faded {
-	color: #ddd50;
+	color: #dddddd50;
 }
 .nov th {
-	background-color: #ddd;
+	background-color: #dddddd;
 }
 .dec td {
 	color: #800080;
