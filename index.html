@@ -1,13 +1,902 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 <head>
-	<title>Rainbow Calendar</title>
+	<meta charset="utf-8"/>
+	<title>Calendar Generator</title>
 	<link rel="stylesheet" type="text/css" href="shared.css">
 </head>
 <body>
 	<ul>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="ace-calendar.html">Ace Calendar</a></li>
 		<li><a href="rainbow-calendar.html">Rainbow Calendar</a></li>
 	</ul>
+
+
+	<form>
+	<fieldset>
+	<legend>Generate a calendar!</legend>
+	<label for="numberOfColumns">Number of Columns:</label>
+	<select name="numberOfColumns" id="numberOfColumns">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4" selected>4</option>
+		<option value="6">6</option>
+	</select>
+    	<div>
+            <div class="color-selector">
+                <label for="color1" id="label1">Pick a color for column 1:</label>
+                <input type="color" id="color1" name="color1">
+            </div>
+            <div class="color-selector">
+                <label for="color2" id="label2">Pick a color for column 2:</label>
+                <input type="color" id="color2" name="color2">
+            </div>
+            <div class="color-selector">
+                <label for="color3" id="label3">Pick a color for column 3:</label>
+                <input type="color" id="color3" name="color3">
+            </div>
+            <div class="color-selector">
+                <label for="color4" id="label4">Pick a color for column 4:</label>
+                <input type="color" id="color4" name="color4">
+            </div>
+            <div class="color-selector">
+                <label for="color5" id="label5">Pick a color for column 5:</label>
+                <input type="color" id="color5" name="color5">
+            </div>
+            <div class="color-selector">
+                <label for="color6" id="label6">Pick a color for column 6:</label>
+                <input type="color" id="color6" name="color6">
+            </div>
+        </div>
+    </fieldset>
+    </form>    
+	
+    <h1 class="year">2021</h1>
+	<table class="jan">
+	<tbody>
+	<tr>
+		<th colspan="7">JANUARY</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">28</td>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="faded">31</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+	</tr>
+	<tr>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+	</tr>
+	<tr>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+	</tr>
+	<tr>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+	</tr>
+	<tr>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+	</tr>
+	<tr>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="feb">
+	<tbody>
+	<tr>
+		<th colspan="7">FEBRUARY</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+	</tr>
+	<tr>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+	</tr>
+	<tr>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+	</tr>
+	<tr>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+	</tr>
+	<tr>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+	</tr>
+	<tr>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+		<td class="faded">10</td>
+		<td class="faded">11</td>
+		<td class="faded">12</td>
+		<td class="faded">13</td>
+		<td class="faded">14</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="mar">
+	<tbody>
+	<tr>
+		<th colspan="7">MARCH</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+	</tr>
+	<tr>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+	</tr>
+	<tr>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+	</tr>
+	<tr>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+	</tr>
+	<tr>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+	</tr>
+	<tr>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+		<td class="faded">10</td>
+		<td class="faded">11</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="apr">
+	<tbody>
+	<tr>
+		<th colspan="7">APRIL</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="faded">31</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+	</tr>
+	<tr>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+	</tr>
+	<tr>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+	</tr>
+	<tr>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+	</tr>
+	<tr>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+	</tr>
+	<tr>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="may">
+	<tbody>
+	<tr>
+		<th colspan="7">MAY</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">26</td>
+		<td class="faded">27</td>
+		<td class="faded">28</td>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+	</tr>
+	<tr>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+	</tr>
+	<tr>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+	</tr>
+	<tr>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+	</tr>
+	<tr>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+	</tr>
+	<tr>
+		<td class="normal">31</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="jun">
+	<tbody>
+	<tr>
+		<th colspan="7">JUNE</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">31</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+	</tr>
+	<tr>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+	</tr>
+	<tr>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+	</tr>
+	<tr>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+	</tr>
+	<tr>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+	</tr>
+	<tr>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+		<td class="faded">10</td>
+		<td class="faded">11</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="jul">
+	<tbody>
+	<tr>
+		<th colspan="7">JULY</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">28</td>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+	</tr>
+	<tr>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+	</tr>
+	<tr>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+	</tr>
+	<tr>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+	</tr>
+	<tr>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+		<td class="faded">1</td>
+	</tr>
+	<tr>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="aug">
+	<tbody>
+	<tr>
+		<th colspan="7">AUGUST</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">26</td>
+		<td class="faded">27</td>
+		<td class="faded">28</td>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="faded">31</td>
+		<td class="normal">1</td>
+	</tr>
+	<tr>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+	</tr>
+	<tr>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+	</tr>
+	<tr>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+	</tr>
+	<tr>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+	</tr>
+	<tr>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="sep">
+	<tbody>
+	<tr>
+		<th colspan="7">SEPTEMBER</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">30</td>
+		<td class="faded">31</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+	</tr>
+	<tr>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+	</tr>
+	<tr>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+	</tr>
+	<tr>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+	</tr>
+	<tr>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+	</tr>
+	<tr>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+		<td class="faded">10</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="oct">
+	<tbody>
+	<tr>
+		<th colspan="7">OCTOBER</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">27</td>
+		<td class="faded">28</td>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+	</tr>
+	<tr>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+	</tr>
+	<tr>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+	</tr>
+	<tr>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+	</tr>
+	<tr>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+	</tr>
+	<tr>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="nov">
+	<tbody>
+	<tr>
+		<th colspan="7">NOVEMBER</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+	</tr>
+	<tr>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+	</tr>
+	<tr>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+	</tr>
+	<tr>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+	</tr>
+	<tr>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+	</tr>
+	<tr>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+		<td class="faded">10</td>
+		<td class="faded">11</td>
+		<td class="faded">12</td>
+	</tr>
+	</tbody>
+	</table>
+	<table class="dec">
+	<tbody>
+	<tr>
+		<th colspan="7">DECEMBER</th>
+	</tr>
+	<tr class="day">
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+	</tr>
+	<tr>
+		<td class="faded">29</td>
+		<td class="faded">30</td>
+		<td class="normal">1</td>
+		<td class="normal">2</td>
+		<td class="normal">3</td>
+		<td class="normal">4</td>
+		<td class="normal">5</td>
+	</tr>
+	<tr>
+		<td class="normal">6</td>
+		<td class="normal">7</td>
+		<td class="normal">8</td>
+		<td class="normal">9</td>
+		<td class="normal">10</td>
+		<td class="normal">11</td>
+		<td class="normal">12</td>
+	</tr>
+	<tr>
+		<td class="normal">13</td>
+		<td class="normal">14</td>
+		<td class="normal">15</td>
+		<td class="normal">16</td>
+		<td class="normal">17</td>
+		<td class="normal">18</td>
+		<td class="normal">19</td>
+	</tr>
+	<tr>
+		<td class="normal">20</td>
+		<td class="normal">21</td>
+		<td class="normal">22</td>
+		<td class="normal">23</td>
+		<td class="normal">24</td>
+		<td class="normal">25</td>
+		<td class="normal">26</td>
+	</tr>
+	<tr>
+		<td class="normal">27</td>
+		<td class="normal">28</td>
+		<td class="normal">29</td>
+		<td class="normal">30</td>
+		<td class="normal">31</td>
+		<td class="faded">1</td>
+		<td class="faded">2</td>
+	</tr>
+	<tr>
+		<td class="faded">3</td>
+		<td class="faded">4</td>
+		<td class="faded">5</td>
+		<td class="faded">6</td>
+		<td class="faded">7</td>
+		<td class="faded">8</td>
+		<td class="faded">9</td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="calendar-generator.js"></script>
+
 </body>
 </html>
