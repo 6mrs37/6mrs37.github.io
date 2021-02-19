@@ -1,5 +1,12 @@
 function dealWithColorChange(event) {
-    columnNum = event.data;
+    const columnNum = event.data;
+    colorsDoubled = "";
+    for (let i = 1; i < columns + 1; i++) {
+        colorsDoubled += ", " + $("#color" + i).val();
+        colorsDoubled += ", " + $("#color" + i).val();
+    }
+    $("h1").css("background-image", "linear-gradient(to right" + colorsDoubled + ")");
+    console.log("linear-gradient(to right" + colorsDoubled + ")");
     for (let monthNum = columnNum - 1; monthNum < 12; monthNum += columns) {
         $("." + months[monthNum] + " td.normal").css("color", $("#color" + columnNum).val());
         $("." + months[monthNum] + " td.faded").css("color", $("#color" + columnNum).val() + "50");
