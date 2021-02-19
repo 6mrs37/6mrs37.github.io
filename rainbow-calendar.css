@@ -1,97 +1,133 @@
-
 h1 {
-	font-size: 10vw;
-	margin: 0;
-	color: white;
-	background-color: red;
-	background-image: linear-gradient(to right, red, red, orange, orange, #ffe033, #ffe033, #00b300, #00b300, blue, blue, purple, purple);
+	background-color: #000;
+	background-image: linear-gradient(to right, #ff0000, #ff0000, #ffa500, #ffa500, #ffd700, #ffd700, #00b300, #00b300, #0000ff, #0000ff, #800080, #800080);
 }
 table {
-	float: left;
-	table-layout: fixed;
-	width: 16.6%;
+	width: 16.666666666666668%;
 }
 th {
 	font-size: 2.5vw;
-	color: white;
 }
 td {
 	font-size: 1.5vw;
-	font-weight: bold;
 }
-.day {
-	color: gray;
-	font-weight: normal;
-}
-td.jan {
+.jan td {
 	color: #ff0000;
 }
-th.jan {
+
+.jan td.faded {
+	color: #ff000050;
+}
+.jan th {
 	background-color: #ff0000;
 }
-td.feb {
+.feb td {
 	color: #ffa500;
 }
-th.feb {
+
+.feb td.faded {
+	color: #ffa50050;
+}
+.feb th {
 	background-color: #ffa500;
 }
-td.mar {
+.mar td {
 	color: #ffd700;
 }
-th.mar {
+
+.mar td.faded {
+	color: #ffd70050;
+}
+.mar th {
 	background-color: #ffd700;
 }
-td.apr {
-	color: #008000;
+.apr td {
+	color: #00b300;
 }
-th.apr {
-	background-color: #008000;
+
+.apr td.faded {
+	color: #00b30050;
 }
-td.may {
+.apr th {
+	background-color: #00b300;
+}
+.may td {
 	color: #0000ff;
 }
-th.may {
+
+.may td.faded {
+	color: #0000ff50;
+}
+.may th {
 	background-color: #0000ff;
 }
-td.jun {
+.jun td {
 	color: #800080;
 }
-th.jun {
+
+.jun td.faded {
+	color: #80008050;
+}
+.jun th {
 	background-color: #800080;
 }
-td.jul {
+.jul td {
 	color: #ff0000;
 }
-th.jul {
+
+.jul td.faded {
+	color: #ff000050;
+}
+.jul th {
 	background-color: #ff0000;
 }
-td.aug {
+.aug td {
 	color: #ffa500;
 }
-th.aug {
+
+.aug td.faded {
+	color: #ffa50050;
+}
+.aug th {
 	background-color: #ffa500;
 }
-td.sep {
+.sep td {
 	color: #ffd700;
 }
-th.sep {
+
+.sep td.faded {
+	color: #ffd70050;
+}
+.sep th {
 	background-color: #ffd700;
 }
-td.oct {
-	color: #008000;
+.oct td {
+	color: #00b300;
 }
-th.oct {
-	background-color: #008000;
+
+.oct td.faded {
+	color: #00b30050;
 }
-td.nov {
+.oct th {
+	background-color: #00b300;
+}
+.nov td {
 	color: #0000ff;
 }
-th.nov {
+
+.nov td.faded {
+	color: #0000ff50;
+}
+.nov th {
 	background-color: #0000ff;
 }
-td.dec {
+.dec td {
 	color: #800080;
 }
-th.dec {
+
+.dec td.faded {
+	color: #80008050;
+}
+.dec th {
 	background-color: #800080;
 }
