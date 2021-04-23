@@ -47,9 +47,7 @@ h1.year {
 	padding-top: 70px;
 }
 form {
-	padding-top: 70px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 70px 10px 10px;
 	background-color: #444;
 }
 .color-selector {
