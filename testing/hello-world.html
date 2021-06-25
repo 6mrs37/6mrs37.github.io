@@ -7,7 +7,12 @@
   <body>
     <?php include '/system/heading.html'; ?>
     <p>Normal<p>
-    <?php echo "<p>PHP generated</p>"; ?>
+    <script language="php">
+      echo "<p>Not Normal</p>";
+    </script>
     <p>Normal</p>
+    <?php
+    echo "<p>Not Normal</p>";
+    ?>
   </body>
 </html>
