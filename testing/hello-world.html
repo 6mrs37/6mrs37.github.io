@@ -5,7 +5,10 @@
     <link rel="icon" href="/6.png"></link>
   </head>
   <body>
-    <?php include '/system/heading.php'; ?>
+    <?php
+    include '/system/heading.php';
+    echo makeHeading();
+    ?>
     <p>Normal<p>
     <script language="php">
       echo "<p>Not Normal</p>";
