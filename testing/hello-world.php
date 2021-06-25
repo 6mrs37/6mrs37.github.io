@@ -5,7 +5,7 @@
     <link rel="icon" href="/6.png"></link>
   </head>
   <body>
-    <?php include '/system/heading.html'; ?>
+    <?php include '/system/heading.php'; ?>
     <p>Normal<p>
     <script language="php">
       echo "<p>Not Normal</p>";
